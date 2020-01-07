@@ -7,11 +7,17 @@ class Course(models.Model):
 
     name = fields.Char(string="Title", required=True )
     description = fields.Text()
+    responsible_id = fields.Many2one('res.users', string="Responsible", 
+			index=True, ondelete='set null')
 
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         self.value2 = float(self.value) / 100
+class Session(models.Model):
+    _name = 'prueba.session'
+
+    name = fields.Char(required=True)
+    start_date = fields.Date()
+    duration = fields.Float(digits=(6, 2),help="Durarion in days")
+    seats = fields.Integer(string="Number of seats")
+    instructor_id = fields.Many2one('res.partner', string='Instructor')
+    course_id = fields.Many2one('prueba.course', ondelete='cascade',
+				string="Course", required=True)
+    attendee_ids = fields.Many2many('res.partner', string="Atendees")
