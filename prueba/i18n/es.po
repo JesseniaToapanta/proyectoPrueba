@@ -1,0 +1,619 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* prueba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-03 17:55+0000\n"
+"PO-Revision-Date: 2020-02-03 13:13-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_kanban_view
+msgid ""
+"<br/>\n"
+"                                Start date:"
+msgstr ""
+"<br/>\n"
+"                                Fecha de Inicio:"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_kanban_view
+msgid ""
+"<br/>\n"
+"                                duration:"
+msgstr ""
+"<br/>\n"
+"                                duration:"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:130
+#, python-format
+msgid "A session's instructor can't be an attendee"
+msgstr "Un instructor de sesión no puede ser un asistente"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "About"
+msgstr "About"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_active
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_active
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_active
+#: model:ir.ui.view,arch_db:prueba.book_list_view
+#: model:ir.ui.view,arch_db:prueba.category_list_view
+msgid "Active"
+msgstr "Activo"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.launch_session_wizard
+#: model:ir.ui.view,arch_db:prueba.wizard_form_view
+msgid "Add Attendees"
+msgstr "Agregar Asistentes"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_attendee_ids
+msgid "Atendees"
+msgstr "Asistentes"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_res_partner_session_ids
+#: model:ir.model.fields,field_description:prueba.field_res_users_session_ids
+msgid "Attended Sessions"
+msgstr "Attended Sessions"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_attendee_ids
+msgid "Attendee"
+msgstr "Asistente"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_attendees_count
+msgid "Attendees Count"
+msgstr "Número de asistentes"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.book_list_action
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_name
+#: model:ir.ui.menu,name:prueba.book_menu
+msgid "Book"
+msgstr "Book"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.book_list_view
+msgid "Book Tree"
+msgstr "Book Tree"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_bool
+msgid "Campo tipo Boolean"
+msgstr "Campo tipo Boolean"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_float
+msgid "Campo tipo Float"
+msgstr "Campo tipo Float"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_html
+msgid "Campo tipo HTML"
+msgstr "Campo tipo HTML"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_int
+msgid "Campo tipo Integer"
+msgstr "Campo tipo Integer"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_select
+msgid "Campo tipo Selección"
+msgstr "Campo tipo Selección"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_text
+msgid "Campo tipo Text"
+msgstr "Campo tipo Text"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_char
+msgid "Campo tipo char"
+msgstr "Campo tipo char"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_field_date
+msgid "Campo tipo fecha"
+msgstr "Campo tipo fecha"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.category_list_action
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_category_id
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_name
+#: model:ir.ui.menu,name:prueba.category_menu
+#: model:ir.ui.view,arch_db:prueba.book_list_view
+msgid "Category"
+msgstr "Categoría"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.category_search_view
+msgid "Category Search"
+msgstr "Categoría de Búqueda"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.category_list_view
+msgid "Category Tree"
+msgstr "Category Tree"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_color
+msgid "Color"
+msgstr "Color"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.configuration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.contact_menu
+msgid "Contacs"
+msgstr "Contactos"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.contact_list_action
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:38
+#, python-format
+msgid "Copy of %s"
+msgstr "Copia de %s"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:40
+#, python-format
+msgid "Copy of %s (%s)"
+msgstr "Copia de %s (%s)"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:36
+#, python-format
+msgid "Copy of %s%%"
+msgstr "Copia de %s%%"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_course_id
+msgid "Course"
+msgstr "Course"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "Course Form"
+msgstr "Course Form"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_search_view
+msgid "Course Search"
+msgstr "Course Search"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_list_view
+msgid "Course Tree"
+msgstr "Course Tree"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.courses_menu
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "Courses"
+msgstr "Courses"
+
+#. module: prueba
+#: model:ir.actions.act_window,help:prueba.course_list_action
+msgid "Create the firt course"
+msgstr "Crea el primer curso"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_create_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_create_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_create_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_create_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_create_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_create_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_create_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_create_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_create_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_create_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_datetime_test
+msgid "Datetime Test"
+msgstr "Datetime Test"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_kanban_view
+msgid "Delete"
+msgstr "Eliminar"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_description
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "Description"
+msgstr "Descripción"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_display_name
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_display_name
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_display_name
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_display_name
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_display_name
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: prueba
+#: model:ir.model.fields,help:prueba.field_prueba_session_duration
+msgid "Durarion in days"
+msgstr "Durarion in days"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_duration
+msgid "Duration"
+msgstr "Duration"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_hours
+msgid "Duration in hours"
+msgstr "Duration in hours"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_end_date
+msgid "End Date"
+msgstr "End Date"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_id
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_id
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_id
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_id
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_id
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_isbn
+msgid "Ibsn"
+msgstr "Ibsn"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_image
+#: model:ir.ui.view,arch_db:prueba.book_list_view
+msgid "Image"
+msgstr "Imagen"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:109
+#, python-format
+msgid "Incorrect 'seats' value"
+msgstr "Valor 'asientos' Incorrecto"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:118
+#, python-format
+msgid "Increase seats or remove excess attendees"
+msgstr "Incremento los asientos o remueva el exceso de asistentes"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_instructor_id
+#: model:ir.model.fields,field_description:prueba.field_res_partner_instructor
+#: model:ir.model.fields,field_description:prueba.field_res_users_instructor
+msgid "Instructor"
+msgstr "Instructor"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book___last_update
+#: model:ir.model.fields,field_description:prueba.field_prueba_category___last_update
+#: model:ir.model.fields,field_description:prueba.field_prueba_course___last_update
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo___last_update
+#: model:ir.model.fields,field_description:prueba.field_prueba_session___last_update
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_write_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_write_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_write_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_write_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_write_uid
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_write_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_category_write_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_write_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_nuevo_write_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_write_date
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.library_menu
+msgid "Library"
+msgstr "Library"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.main_library_menu
+msgid "Modulo Library"
+msgstr "Modulo Library"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.main_prueba_menu
+#: model:ir.ui.menu,name:prueba.prueba_menu
+msgid "Modulo Prueba"
+msgstr "Modulo Prueba"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_search_view
+msgid "My Courses"
+msgstr "My Courses"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.partner_instructor_form-view
+msgid "My string"
+msgstr "My string"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_list_view
+msgid "Name Tree"
+msgstr "Name Tree"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "Nombre"
+msgstr "Nombre"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.nuevo_list_action
+#: model:ir.ui.menu,name:prueba.nuevo_menu
+msgid "Nuevo"
+msgstr "Nuevo"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.nuevo_form_view
+msgid "Nuevo Form"
+msgstr "Nuevo Form"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_seats
+msgid "Number of seats"
+msgstr "Number of seats"
+
+#. module: prueba
+#: model:res.groups,name:prueba.group_manager
+msgid "OpenAcademy / Manager"
+msgstr "OpenAcademy / Manager"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_res_partner_other_field
+#: model:ir.model.fields,field_description:prueba.field_res_users_other_field
+msgid "Other Field"
+msgstr "Other Field"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_res_partner_other_field2
+#: model:ir.model.fields,field_description:prueba.field_res_users_other_field2
+msgid "Other Field2"
+msgstr "Other Field2"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_book_pages
+#: model:ir.ui.view,arch_db:prueba.book_list_view
+msgid "Pages"
+msgstr "Pages"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_graph_view
+msgid "Participations by Courses"
+msgstr "Participations by Courses"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "Registered sessions"
+msgstr "Registered sessions"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_responsible_id
+#: model:ir.ui.view,arch_db:prueba.course_search_view
+msgid "Responsible"
+msgstr "Responsible"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.session_menu
+msgid "Sesions"
+msgstr "Sesions"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_session_ids
+#: model:ir.model.fields,field_description:prueba.field_prueba_wizard_session_ids
+msgid "Session"
+msgstr "Session"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_calendar_view
+msgid "Session Calendar"
+msgstr "Session Calendar"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_form_view
+msgid "Session Form"
+msgstr "Session Form"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_gantt_view
+msgid "Session Gantt"
+msgstr "Session Gantt"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_tree_view
+msgid "Session Tree"
+msgstr "Session Tree"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.session_kanban_view
+msgid "Session name:"
+msgstr "Session name:"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.session_list_action
+#: model:ir.ui.view,arch_db:prueba.partner_instructor_form-view
+msgid "Sessions"
+msgstr "Sessions"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_start_date
+msgid "Start Date"
+msgstr "Start Date"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.wizard_form_view
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_session_taken_seats
+msgid "Taken Seats"
+msgstr "Taken Seats"
+
+#. module: prueba
+#: sql_constraint:prueba.course:0
+msgid "The course title must be unique"
+msgstr "El título del curso debe ser único"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:110
+#, python-format
+msgid "The number of available seats may not be negative"
+msgstr "El número de asientos disponibles no puede ser negativo"
+
+#. module: prueba
+#: sql_constraint:prueba.course:0
+msgid "The tittl e of the course should not be the description"
+msgstr "El título y descripción del curso no pueden ser los mismos"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "This is a example of notebooks"
+msgstr "Este es un ejemplo de notebooks"
+
+#. module: prueba
+#: model:ir.ui.menu,name:prueba.fields_menu
+msgid "Tipos de Fields"
+msgstr "Tipos de Fields"
+
+#. module: prueba
+#: model:ir.model.fields,field_description:prueba.field_prueba_course_name
+msgid "Title"
+msgstr "Título"
+
+#. module: prueba
+#: code:addons/prueba/models/models.py:117
+#, python-format
+msgid "Too many attendess"
+msgstr "Demasiados  asistentes"
+
+#. module: prueba
+#: model:ir.actions.act_window,name:prueba.course_list_action
+msgid "courses"
+msgstr "courses"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_form_view
+msgid "id instructor"
+msgstr "id instructor"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.course_list_view
+msgid "jaaa"
+msgstr "jaaa"
+
+#. module: prueba
+#: model:ir.ui.view,arch_db:prueba.wizard_form_view
+msgid "or"
+msgstr "or"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_prueba_book
+msgid "prueba.book"
+msgstr "prueba.book"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_prueba_category
+msgid "prueba.category"
+msgstr "prueba.category"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_prueba_course
+msgid "prueba.course"
+msgstr "prueba.course"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_prueba_nuevo
+msgid "prueba.nuevo"
+msgstr "prueba.nuevo"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_prueba_session
+msgid "prueba.session"
+msgstr "prueba.session"
+
+#. module: prueba
+#: model:ir.model,name:prueba.model_prueba_wizard
+msgid "prueba.wizard"
+msgstr "prueba.wizard"
+
+#. module: prueba
+#: selection:prueba.nuevo,field_select:0
+msgid "uno"
+msgstr "uno"
