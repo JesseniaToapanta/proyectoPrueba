@@ -30,6 +30,7 @@
         'views/partner.xml',
         'views/templates.xml',
         'views/ejemplos.xml',
+	'reports.xml',
 #        'views/escuela.xml',
     ],
     # only loaded in demonstration mode
